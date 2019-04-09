@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+header {
+    background-color: #b3e5c0;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50pX;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #72c164;
+    padding: 20px; 
+}
+
+nav ul {
+    padding: 0;
+}
+
+footer{
+    background-color: #32a520;
+    text-align: center;
+}
